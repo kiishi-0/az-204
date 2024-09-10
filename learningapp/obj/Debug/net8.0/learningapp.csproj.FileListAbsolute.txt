@@ -132,3 +132,14 @@ C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\
 C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\Debug\net8.0\learningapp.pdb
 C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\Debug\net8.0\learningapp.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\Debug\net8.0\ref\learningapp.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Azure.Data.AppConfiguration.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Azure.Messaging.EventGrid.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\DnsClient.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Microsoft.Azure.AppConfiguration.AspNetCore.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Microsoft.Extensions.Configuration.AzureAppConfiguration.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\Debug\net8.0\learningapp.sourcelink.json
+c:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+c:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll
+c:\Users\HP\OneDrive\Documents\AZ-204 CERTIFICATION\application\learningapp\obj\Debug\net8.0\learningapp.MvcApplicationPartsAssemblyInfo.cs

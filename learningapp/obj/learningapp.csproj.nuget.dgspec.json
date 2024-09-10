@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj": {}
+    "c:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj": {
+    "c:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj",
+        "projectUniqueName": "c:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj",
         "projectName": "learningapp",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj",
+        "projectPath": "c:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\learningapp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\obj\\",
+        "outputPath": "c:\\Users\\HP\\OneDrive\\Documents\\AZ-204 CERTIFICATION\\application\\learningapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,9 +46,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Azure.AppConfiguration.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Microsoft.FeatureManagement.AspNetCore": {
+              "target": "Package",
+              "version": "[3.5.0, )"
             }
           },
           "imports": [

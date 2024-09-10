@@ -1,10 +1,18 @@
+using Microsoft.FeatureManagement;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Configuration
-.AddJsonFile("appsettings.json")
-    .AddEnvironmentVariables();
+// builder.Configuration
+// .AddJsonFile("appsettings.json")
+//     .AddEnvironmentVariables();
+
+builder.Configuration.AddAzureAppConfiguration(options => {
+    options.Connect("Endpoint=https://applicationconfig1000.azconfig.io;Id=DqkS;Secret=1BhsMXd8sf6JTFYABs3k1ClnhnOdQozUDBL1UM75eoGb2wKFmutpJQQJ99AIACi5YpzBuCAKAAABAZACqSrQ");
+    options.UseFeatureFlags();
+});
+builder.Services.AddFeatureManagement();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
